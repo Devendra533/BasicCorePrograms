@@ -2,7 +2,7 @@
 using BasicCorePrograms;
 
 Console.WriteLine(" ........... WELCOME TO BASIC CORE PROGRAMS...............");
-CoinFlip flip = new CoinFlip();
+BasicCorePrograms .BasicCorePrograms flip = new BasicCorePrograms.BasicCorePrograms();
 flip.PercentageOfCoinFlip();
 
 Console.ReadKey();

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BasicCorePrograms
 {
-    internal class CoinFlip
+    internal class BasicCorePrograms
     {
         public void PercentageOfCoinFlip()
         {
@@ -38,5 +38,7 @@ namespace BasicCorePrograms
             Console.WriteLine("PERCENTAGE OF TAILS " + PercentageOfTails);
 
         }
+
+       
     }
 }
