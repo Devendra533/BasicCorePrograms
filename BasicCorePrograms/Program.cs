@@ -4,5 +4,6 @@ using BasicCorePrograms;
 Console.WriteLine(" ........... WELCOME TO BASIC CORE PROGRAMS...............");
 BasicCorePrograms .BasicCorePrograms flip = new BasicCorePrograms.BasicCorePrograms();
 flip.PercentageOfCoinFlip();
+flip.LeapYear();   
 
 Console.ReadKey();

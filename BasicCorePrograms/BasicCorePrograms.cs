@@ -39,6 +39,22 @@ namespace BasicCorePrograms
 
         }
 
-       
+        public void LeapYear()
+        {
+            int year = 0;
+            do
+            {
+                Console.WriteLine("Enter Year in YYYY : ");
+                year = Convert.ToInt32(Console.ReadLine());
+            }
+            while (year % 1000 == 0);
+            if (year % 4 == 0)
+                Console.WriteLine("YEAR IS A LEAP YEAR ");
+            else
+                Console.WriteLine("YEAR IS NOT A LEAP YEAR ");
+
+            Console.ReadLine();
+
+        }
     }
 }
