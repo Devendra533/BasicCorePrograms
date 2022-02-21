@@ -32,12 +32,17 @@ namespace BasicCorePrograms
                 TAILS++;
                 Count++;
             }
-            PercentageOfHeads = HEADS *( Count / 100);
+            PercentageOfHeads = HEADS * (Count / 100);
             PercentageOfTails = TAILS * (Count / 100);
             Console.WriteLine("PERCENTAGE OF HEADS " + PercentageOfHeads);
             Console.WriteLine("PERCENTAGE OF TAILS " + PercentageOfTails);
 
         }
+
+        
+        
+       
+        
 
         public void LeapYear()
         {
@@ -56,5 +61,20 @@ namespace BasicCorePrograms
             Console.ReadLine();
 
         }
+
+        public void PowerOf2(int n)
+        {
+            int power = 0;
+           
+            while (n < 0 )
+               n = Convert.ToInt32(Console.ReadLine());
+            
+            for (int i = 0; i <= n; i++)
+            {
+                power = Convert.ToInt32(Math.Pow(2, i));
+                Console.WriteLine("2^" + i + " = " + power);
+            }
+
+        }
     }
-}
+}    
