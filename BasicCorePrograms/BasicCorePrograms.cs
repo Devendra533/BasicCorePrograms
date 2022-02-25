@@ -98,7 +98,7 @@ namespace BasicCorePrograms
         public void Factors()
         {
             int N, i;
-            Console.WriteLine("Enter Positive Number Greater Than One ");
+            Console.WriteLine("Enter Positive Number Greater Then One : ");
             N = Convert.ToInt32(Console.ReadLine());
 
             for (i = 1; i <= N; i++)
@@ -109,6 +109,27 @@ namespace BasicCorePrograms
                 }
             }
         }
+
+        public void QuotientAndRemainder() 
+        {
+            int quotient=0; 
+            int remainder=0;
+            int divident =0;
+            int divisor =0;
+
+            Console.WriteLine("Enter Divident :");
+            divident=Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Divisor ");
+            divisor=Convert.ToInt32(Console.ReadLine());
+
+            quotient = divident/divisor;
+            remainder = divident%divisor;
+
+            Console.WriteLine("Quotient :" +quotient +   "Remainder :" +remainder);
+      
+
+        }
+
 
     }
 }    

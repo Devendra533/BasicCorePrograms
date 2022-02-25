@@ -8,6 +8,5 @@ BasicCorePrograms .BasicCorePrograms flip = new BasicCorePrograms.BasicCoreProgr
 //int n = 9;
 //flip.PowerOf2(n);
 //flip.HarmonicNumber();
-flip.Factors();
-
+flip.QuotientAndRemainder();
 Console.ReadKey();
