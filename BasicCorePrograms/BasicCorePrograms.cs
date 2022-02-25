@@ -76,5 +76,24 @@ namespace BasicCorePrograms
             }
 
         }
+
+        public void HarmonicNumber() 
+        { 
+            int n = 0;
+            float H = 0;
+            do
+            {
+
+
+                Console.WriteLine("Enter any positive number = ");
+                n = Convert.ToInt32(Console.ReadLine());
+            } while (n < 0);
+            {
+                for (int i = 1; i <= n; i++)
+                    H += (float)1 / (float)i;
+                Console.WriteLine("HARMONIC SERIES IS :-" + H);
+            }
+
+        }
     }
 }    
