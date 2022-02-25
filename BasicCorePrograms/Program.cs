@@ -7,6 +7,7 @@ BasicCorePrograms .BasicCorePrograms flip = new BasicCorePrograms.BasicCoreProgr
 //flip.LeapYear();
 //int n = 9;
 //flip.PowerOf2(n);
-flip.HarmonicNumber();
+//flip.HarmonicNumber();
+flip.Factors();
 
 Console.ReadKey();
