@@ -98,7 +98,11 @@ namespace BasicCorePrograms
         public void Factors()
         {
             int N, i;
+<<<<<<< HEAD
             Console.WriteLine("Enter Positive Number Greater Then One : ");
+=======
+            Console.WriteLine("Enter Positive Number Greater Than One :");
+>>>>>>> UC5_Factors
             N = Convert.ToInt32(Console.ReadLine());
 
             for (i = 1; i <= N; i++)
