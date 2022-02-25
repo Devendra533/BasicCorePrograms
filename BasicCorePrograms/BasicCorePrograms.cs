@@ -130,6 +130,22 @@ namespace BasicCorePrograms
 
         }
 
+        public void SwapTwoNumbers() 
+        {
+            int a = 0;
+            int b = 0;
+            int temp = 0;
 
+            Console.WriteLine("Enter value of A :");
+            a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter value of B :");
+            b = Convert.ToInt32(Console.ReadLine());
+
+            temp = a;
+            a=b;
+            b=temp;
+            Console.WriteLine("A: " + a );
+            Console.WriteLine("B: " + b );
+        }
     }
 }    
