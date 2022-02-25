@@ -98,7 +98,7 @@ namespace BasicCorePrograms
         public void Factors()
         {
             int N, i;
-            Console.WriteLine("Enter Positive Number Greater Then One : ");
+            Console.WriteLine("Enter Positive Number Greater Than One : ");
             N = Convert.ToInt32(Console.ReadLine());
 
             for (i = 1; i <= N; i++)
