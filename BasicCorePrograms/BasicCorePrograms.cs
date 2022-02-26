@@ -98,11 +98,9 @@ namespace BasicCorePrograms
         public void Factors()
         {
             int N, i;
-<<<<<<< HEAD
-            Console.WriteLine("Enter Positive Number Greater Then One : ");
-=======
+
             Console.WriteLine("Enter Positive Number Greater Than One :");
->>>>>>> UC5_Factors
+
             N = Convert.ToInt32(Console.ReadLine());
 
             for (i = 1; i <= N; i++)
@@ -150,6 +148,22 @@ namespace BasicCorePrograms
             b=temp;
             Console.WriteLine("A: " + a );
             Console.WriteLine("B: " + b );
+        }
+
+        public void EvenOdd() 
+        {
+            int n=0;
+
+            Console.WriteLine("Enter Any Number :" );
+            n = Convert.ToInt32(Console.ReadLine());
+
+            if (n % 2 == 0) 
+            
+                Console.WriteLine("Number is a Even number ");
+            
+            else
+                Console.WriteLine("Number is a Odd Number ");
+
         }
     }
 }    
