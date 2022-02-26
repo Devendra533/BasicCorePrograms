@@ -9,5 +9,7 @@ BasicCorePrograms .BasicCorePrograms flip = new BasicCorePrograms.BasicCoreProgr
 //flip.PowerOf2(n);
 //flip.HarmonicNumber();
 //flip.EvenOdd(); 
-flip.Alphabet();
+//flip.Alphabet();
+flip.FindLargestNumber();
+
 Console.ReadKey();

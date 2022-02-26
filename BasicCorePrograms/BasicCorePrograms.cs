@@ -183,5 +183,30 @@ namespace BasicCorePrograms
             }
             Console.ReadLine();
         }
+
+        public void FindLargestNumber() 
+        {
+            int num1=0;
+            int num2=0;
+            int num3=0;
+
+            Console.WriteLine("Enter 1st Number :");
+            num1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter 2nd Number :");
+            num2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter 3rd Number :");
+            num3 = Convert.ToInt32(Console.ReadLine());
+
+            if ((num1 > num2) && (num1 > num3))
+            {
+                Console.WriteLine("1st Number is Larger");
+            }
+            else if (num2 > num3)
+                Console.WriteLine("2nd Number is Larger");
+            else
+                Console.WriteLine("3rd Number is Larger");
+
+        }
+
     }
 }    
